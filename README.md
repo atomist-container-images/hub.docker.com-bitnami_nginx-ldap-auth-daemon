@@ -1,0 +1,1 @@
+# hub.docker.com-bitnami_nginx-ldap-auth-daemon
