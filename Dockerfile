@@ -1,12 +1,24 @@
-# Tags: latest, 0.20200116.0-debian-10-r630, 0.20200116.0, 0-debian-10, 0
+# Tags: latest, 0.20200116.0-debian-10-r634, 0.20200116.0, 0-debian-10, 0
 FROM bitnami/nginx-ldap-auth-daemon:latest
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r630
+FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r634
 FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0
 FROM bitnami/nginx-ldap-auth-daemon:0-debian-10
 FROM bitnami/nginx-ldap-auth-daemon:0
 
 # Tags: _
 FROM bitnami/nginx-ldap-auth-daemon:_
+
+# Tags: 0.20200116.0-debian-10-r633
+FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r633
+
+# Tags: 0.20200116.0-debian-10-r632
+FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r632
+
+# Tags: 0.20200116.0-debian-10-r631
+FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r631
+
+# Tags: 0.20200116.0-debian-10-r630
+FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r630
 
 # Tags: 0.20200116.0-debian-10-r629
 FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r629
@@ -82,18 +94,3 @@ FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r606
 
 # Tags: 0.20200116.0-debian-10-r605
 FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r605
-
-# Tags: 0.20200116.0-debian-10-r604
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r604
-
-# Tags: 0.20200116.0-debian-10-r603
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r603
-
-# Tags: 0.20200116.0-debian-10-r602
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r602
-
-# Tags: 0.20200116.0-debian-10-r601
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r601
-
-# Tags: 0.20200116.0-debian-10-r600
-FROM bitnami/nginx-ldap-auth-daemon:0.20200116.0-debian-10-r600
